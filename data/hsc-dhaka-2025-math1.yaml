@@ -1,8 +1,9 @@
-exam: dhaka
+exam: hsc
+board: dhaka
 year: 2025
 subject: math1
 type: board
-source: "Dhaka Board HSC Higher Mathematics 1st Paper 2025"
+source: "..."
 verified: false
 total_mcq: 25
 total_cq: 0
