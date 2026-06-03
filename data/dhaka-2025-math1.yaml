@@ -1,0 +1,270 @@
+exam: dhaka
+year: 2025
+subject: math1
+type: board
+source: "Dhaka Board HSC Higher Mathematics 1st Paper 2025"
+verified: false
+total_mcq: 25
+total_cq: 0
+
+stem_groups:
+  - group_id: dhaka-2025-math1-mcq-sg-01
+    stem: "নিচের উদ্দীপকের আলোকে ৭ ও ৮নং প্রশ্নের উত্তর দাও :"
+    stem_type: diagram
+    stem_asset: dhaka-2025-math1-mcq-007.png
+    question_ids: [dhaka-2025-math1-mcq-007, dhaka-2025-math1-mcq-008]
+
+mcq:
+  - id: dhaka-2025-math1-mcq-001
+    seq: 1
+    question: "$\\begin{vmatrix} 3 & 5 & -2 \\\\ -1 & 6 & 4 \\\\ 2 & -3 & 7 \\end{vmatrix}$ এর (3,2)-তম ভুক্তির সহগুণকের মান কত?"
+    options:
+      a: "$-30$"
+      b: "$-10$"
+      c: "$10$"
+      d: "$30$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-002
+    seq: 2
+    question: "$2x + ky + 1 = 0$ ও $3x - 2y + 5 = 0$ রেখাদ্বয় পরস্পর লম্ব হলে $k$-এর মান কত?"
+    options:
+      a: "$-6$"
+      b: "$-3$"
+      c: "$3$"
+      d: "$6$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-003
+    seq: 3
+    question: "$x^2 + y^2 - 6x + 2y - c = 0$ সমীকরণটি বৃত্ত নির্দেশ করলে $c$-এর মান কী হবে?"
+    options:
+      a: "$c \\ge -10$"
+      b: "$c \\ge 10$"
+      c: "$c \\le -10$"
+      d: "$c \\le 10$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-004
+    seq: 4
+    question: "$\\tan\\theta = \\frac{1}{3}$ হলে, $\\cos 2\\theta$ এর মান কত?"
+    options:
+      a: "$\\frac{3}{5}$"
+      b: "$\\frac{3}{4}$"
+      c: "$\\frac{4}{5}$"
+      d: "$\\frac{5}{4}$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-005
+    seq: 5
+    question: "$A = (a_{ij})$ বিপ্রতিসম ম্যাট্রিক্স হলে—\ni. $a_{ij} = -a_{ji}$; যখন $i \\ne j$\nii. $a_{ii} = 0$; যখন $i = j$\niii. $m \\ne n$\nনিচের কোনটি সঠিক?"
+    options:
+      a: "i ও ii"
+      b: "i ও iii"
+      c: "ii ও iii"
+      d: "i, ii ও iii"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-006
+    seq: 6
+    question: "$\\int \\frac{3}{2-5x} dx = f(x) + c$ হলে, $f(x)$ এর মান কোনটি?"
+    options:
+      a: "$\\frac{3}{5} \\ln(2-5x)$"
+      b: "$-\\frac{3}{5} \\ln(2-5x)$"
+      c: "$3 \\ln(2-5x)$"
+      d: "$-3 \\ln(2-5x)$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-007
+    seq: 7
+    group_id: dhaka-2025-math1-mcq-sg-01
+    question: "OD রেখার ঢাল কত?"
+    options:
+      a: "$\\sqrt{3}$"
+      b: "$\\frac{1}{\\sqrt{3}}$"
+      c: "$-\\frac{1}{\\sqrt{3}}$"
+      d: "$-\\sqrt{3}$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-008
+    seq: 8
+    group_id: dhaka-2025-math1-mcq-sg-01
+    question: "$OD = 4$ হলে, $AB$ রেখার সমীকরণ কোনটি?"
+    options:
+      a: "$x - \\sqrt{3}y + 8 = 0$"
+      b: "$x + \\sqrt{3}y + 8 = 0$"
+      c: "$\\sqrt{3}x - y + 8 = 0$"
+      d: "$\\sqrt{3}x + y + 8 = 0$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-009
+    seq: 9
+    question: "$\\lim_{x \\to 0} \\frac{1 - \\cos 4x}{2x^2}$ এর মান কত?"
+    options:
+      a: "$\\frac{1}{4}$"
+      b: "$\\frac{1}{2}$"
+      c: "$2$"
+      d: "$4$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-010
+    seq: 10
+    question: "$f(x) = x$, $g(x) = \\cos x^2$ হলে—\ni. $\\int \\frac{2}{f(x)} dx = 2 \\ln x + c$\nii. $\\int_0^{\\sqrt{\\pi}} 2x \\cdot g(x) dx = \\frac{\\pi}{2}$\niii. $g'(x) = -2x \\sin x^2$\nনিচের কোনটি সঠিক?"
+    options:
+      a: "i ও ii"
+      b: "i ও iii"
+      c: "ii ও iii"
+      d: "i, ii ও iii"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-011
+    seq: 11
+    question: "$\\frac{2 \\tan\\left(\\frac{\\pi}{4} + \\frac{x}{2}\\right)}{1 - \\tan^2\\left(\\frac{\\pi}{4} + \\frac{x}{2}\\right)}$ এর মান কত?"
+    options:
+      a: "$\\tan x$"
+      b: "$\\cot x$"
+      c: "$-\\tan x$"
+      d: "$-\\cot x$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-012
+    seq: 12
+    question: "$\\sin \\frac{1}{x}$ এর অন্তরজ কোনটি?"
+    options:
+      a: "$-\\frac{1}{x} \\cos \\frac{1}{x}$"
+      b: "$-\\frac{1}{x^2} \\sin \\frac{1}{x}$"
+      c: "$\\frac{1}{x^2} \\cos \\frac{1}{x}$"
+      d: "$-\\frac{1}{x^2} \\cos \\frac{1}{x}$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-013
+    seq: 13
+    stem_type: diagram
+    stem_asset: dhaka-2025-math1-mcq-013.png
+    question: "$OA = 3$ হলে, $AB$ রেখার সমীকরণ কোনটি?"
+    options:
+      a: "$x - 3 = 0$"
+      b: "$y - 3 = 0$"
+      c: "$x + 3 = 0$"
+      d: "$y + 3 = 0$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-014
+    seq: 14
+    question: "$(-4, 3)$ বিন্দুতে কেন্দ্র এবং $y$-অক্ষকে স্পর্শ করে এরূপ বৃত্তের সমীকরণ কোনটি?"
+    options:
+      a: "$x^2 + y^2 + 8x + 6y + 9 = 0$"
+      b: "$x^2 + y^2 + 8x - 6y + 9 = 0$"
+      c: "$x^2 + y^2 - 8x + 6y + 16 = 0$"
+      d: "$x^2 + y^2 + 8x - 6y + 16 = 0$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-015
+    seq: 15
+    question: "$f(x) = x^2$ এবং $g(x) = \\ln x$ হলে—\ni. $\\int \\frac{1}{f(x)} dx = -\\frac{1}{x} + c$\nii. $g'\\left(\\frac{1}{x}\\right) = -\\frac{1}{x}$\niii. $\\lim_{x \\to 0} \\frac{g(1 - 3x)}{2x} = -\\frac{3}{2}$\nনিচের কোনটি সঠিক?"
+    options:
+      a: "i ও ii"
+      b: "i ও iii"
+      c: "ii ও iii"
+      d: "i, ii ও iii"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-016
+    seq: 16
+    question: "$\\begin{bmatrix} 1 & x & 2 \\\\ -5 & 3 & 4 \\\\ y & 4 & 9 \\end{bmatrix}$ প্রতিসম হলে, $(x, y)$ কত?"
+    options:
+      a: "$(5, -2)$"
+      b: "$(-5, 2)$"
+      c: "$(5, 2)$"
+      d: "$(-5, -2)$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-017
+    seq: 17
+    question: "$A = \\begin{bmatrix} -1 & 3 \\\\ 2 & 5 \\end{bmatrix}$ হলে, $\\text{adj } A$ নিচের কোনটি?"
+    options:
+      a: "$\\begin{bmatrix} 5 & -3 \\\\ -2 & -1 \\end{bmatrix}$"
+      b: "$\\begin{bmatrix} 1 & -3 \\\\ 2 & -5 \\end{bmatrix}$"
+      c: "$\\begin{bmatrix} 5 & 2 \\\\ 3 & -1 \\end{bmatrix}$"
+      d: "$\\begin{bmatrix} 5 & -2 \\\\ -3 & -1 \\end{bmatrix}$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-018
+    seq: 18
+    question: "$\\Delta ABC$-এর $a = 5$, $b = 13$ এবং $c = 12$ হলে—\ni. ত্রিভুজটি সমকোণী\nii. ত্রিভুজটির ক্ষেত্রফল 60 বর্গ একক\niii. ত্রিভুজটির পরিবৃত্তের ব্যাসার্ধ 6.5 একক\nনিচের কোনটি সঠিক?"
+    options:
+      a: "i ও ii"
+      b: "i ও iii"
+      c: "ii ও iii"
+      d: "i, ii ও iii"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-019
+    seq: 19
+    question: "$\\int \\frac{dx}{\\sqrt{x^2 - a^2}}$ কত?"
+    options:
+      a: "$\\frac{1}{2a} \\ln \\left| \\frac{x - a}{x + a} \\right| + c$"
+      b: "$\\frac{1}{2a} \\ln \\left| \\frac{a + x}{a - x} \\right| + c$"
+      c: "$\\ln \\left| x + \\sqrt{x^2 - a^2} \\right| + c$"
+      d: "$\\sin^{-1} \\frac{x}{a} + c$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-020
+    seq: 20
+    question: "$(2, -1)$ বিন্দু থেকে একটি সেটের বিন্দুসমূহের দূরত্ব, $x = 0$ রেখা থেকে দূরত্বের অর্ধেক হলে সঞ্চারপথের সমীকরণ কী হবে?"
+    options:
+      a: "$3x^2 + 4y^2 - 16x + 8y + 20 = 0$"
+      b: "$3x^2 - 4y^2 + 16x + 8y - 20 = 0$"
+      c: "$4x^2 + 3y^2 - 16x + 8y + 20 = 0$"
+      d: "$4x^2 - 3y^2 + 16x - 8y - 20 = 0$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-021
+    seq: 21
+    question: "$y = \\sin 2x$ হলে $y_n$ এর মান কোনটি?"
+    options:
+      a: "$2^n \\sin \\left( \\frac{n\\pi}{2} - 2x \\right)$"
+      b: "$2^n \\sin \\left( \\frac{n\\pi}{2} + 2x \\right)$"
+      c: "$\\sin \\left( \\frac{n\\pi}{2} - 2x \\right)$"
+      d: "$\\sin \\left( \\frac{n\\pi}{2} + 2x \\right)$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-022
+    seq: 22
+    question: "$\\text{cosec }(270^\\circ - \\theta)$ কত?"
+    options:
+      a: "$-\\sin\\theta$"
+      b: "$\\sin\\theta$"
+      c: "$\\text{cosec }\\theta$"
+      d: "$-\\sec\\theta$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-023
+    seq: 23
+    question: "$3 \\cos 20^\\circ - 4 \\cos^3 20^\\circ$ এর মান কত?"
+    options:
+      a: "$-\\frac{\\sqrt{3}}{2}$"
+      b: "$-\\frac{1}{2}$"
+      c: "$\\frac{1}{2}$"
+      d: "$\\frac{\\sqrt{3}}{2}$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-024
+    seq: 24
+    question: "$y = \\frac{2}{x}$ বক্ররেখার $(-1, 2)$ বিন্দুতে অভিলম্বের ঢাল কত?"
+    options:
+      a: "$-4$"
+      b: "$-\\frac{1}{4}$"
+      c: "$\\frac{1}{4}$"
+      d: "$4$"
+    answer: null
+
+  - id: dhaka-2025-math1-mcq-025
+    seq: 25
+    question: "$r = 2 \\sin \\theta$ এর কার্তেসীয় সমীকরণ কোনটি?"
+    options:
+      a: "$x^2 + y^2 - 2x = 0$"
+      b: "$x^2 + y^2 + 2x = 0$"
+      c: "$x^2 + y^2 - 2y = 0$"
+      d: "$x^2 + y^2 + 2y = 0$"
+    answer: null
