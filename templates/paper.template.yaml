@@ -1,0 +1,51 @@
+# ─── Header ───────────────────────────────────────
+exam:                    # b / adm
+board:                   # dka/ctg/raj/syl/cum/jas/bar/din/myn/mad/tec (board only)
+category:                # eng / uni / med (admission only)
+institution:             # buet/cuet/ruet/kuet/du/cu/ju (admission only)
+stage:                   # pre / mn (omit if none)
+year:                    # 2015–2025
+subject:                 # m1/m2/p1/p2/c1/c2/b1/b2
+source:                  # "Full name of paper"
+verified: false
+total_mcq:               # integer
+total_cq:                # integer
+
+# ─── Stem Groups (omit section if none) ───────────
+stem_groups:
+  - group_id:            # {file_id}-mcq-sg-01
+    stem:                # "shared stem text"
+    stem_type:           # text / diagram
+    stem_asset:          # filename.png (diagram only)
+    question_ids: []     # [id1, id2]
+
+# ─── MCQ Section (omit if total_mcq: 0) ──────────
+mcq:
+  - id:                  # {file_id}-mcq-001
+    seq:                 # 1
+    group_id:            # omit if no shared stem
+    stem_type:           # omit if no diagram
+    stem_asset:          # omit if no diagram
+    question:            # "$...$"
+    options:
+      a: ""
+      b: ""
+      c: ""
+      d: ""
+    answer:              # a / b / c / d / null
+
+# ─── CQ Section (omit if total_cq: 0) ────────────
+cq:
+  - id:                  # {file_id}-cq-001
+    seq:                 # 1
+    stem:                # "question stem"
+    parts:
+      a: ""
+      b: ""
+      c: ""
+      d: ""
+    answer:
+      a:                 # null if not available
+      b:                 # null if not available
+      c:                 # null if not available
+      d:                 # null if not available

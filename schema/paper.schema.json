@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "bd-exam-dataset paper schema",
+    "type": "object",
+    "required": ["exam", "year", "subject", "source", "verified", "total_mcq", "total_cq"],
+    "properties": {
+      "exam": { "type": "string", "enum": ["b", "adm"] },
+      "board": { "type": "string", "enum": ["dka","ctg","raj","syl","cum","jas","bar","din","myn","mad","tec"] },
+      "category": { "type": "string", "enum": ["eng","uni","med"] },
+      "institution": { "type": "string" },
+      "stage": { "type": "string", "enum": ["pre","mn"] },
+      "year": { "type": "integer", "minimum": 2015, "maximum": 2025 },
+      "subject": { "type": "string", "enum": ["m1","m2","p1","p2","c1","c2","b1","b2"] },
+      "source": { "type": "string" },
+      "verified": { "type": "boolean" },
+      "total_mcq": { "type": "integer" },
+      "total_cq": { "type": "integer" }
+    }
+  }
