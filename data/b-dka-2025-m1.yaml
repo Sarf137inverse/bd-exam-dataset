@@ -23,7 +23,7 @@ mcq:
       b: "$-10$"
       c: "$10$"
       d: "$30$"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-002
     seq: 2
@@ -33,7 +33,7 @@ mcq:
       b: "$-3$"
       c: "$3$"
       d: "$6$"
-    answer: null
+    answer: c
 
   - id: b-dka-2025-m1-mcq-003
     seq: 3
@@ -43,7 +43,7 @@ mcq:
       b: "$c \\ge 10$"
       c: "$c \\le -10$"
       d: "$c \\le 10$"
-    answer: null
+    answer: a
 
   - id: b-dka-2025-m1-mcq-004
     seq: 4
@@ -53,7 +53,7 @@ mcq:
       b: "$\\frac{3}{4}$"
       c: "$\\frac{4}{5}$"
       d: "$\\frac{5}{4}$"
-    answer: null
+    answer: c
 
   - id: b-dka-2025-m1-mcq-005
     seq: 5
@@ -63,7 +63,7 @@ mcq:
       b: "i ও iii"
       c: "ii ও iii"
       d: "i, ii ও iii"
-    answer: null
+    answer: a
 
   - id: b-dka-2025-m1-mcq-006
     seq: 6
@@ -73,7 +73,7 @@ mcq:
       b: "$-\\frac{3}{5} \\ln(2-5x)$"
       c: "$3 \\ln(2-5x)$"
       d: "$-3 \\ln(2-5x)$"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-007
     seq: 7
@@ -105,7 +105,7 @@ mcq:
       b: "$\\frac{1}{2}$"
       c: "$2$"
       d: "$4$"
-    answer: null
+    answer: d
 
   - id: b-dka-2025-m1-mcq-010
     seq: 10
@@ -115,7 +115,7 @@ mcq:
       b: "i ও iii"
       c: "ii ও iii"
       d: "i, ii ও iii"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-011
     seq: 11
@@ -125,7 +125,7 @@ mcq:
       b: "$\\cot x$"
       c: "$-\\tan x$"
       d: "$-\\cot x$"
-    answer: null
+    answer: d
 
   - id: b-dka-2025-m1-mcq-012
     seq: 12
@@ -135,7 +135,7 @@ mcq:
       b: "$-\\frac{1}{x^2} \\sin \\frac{1}{x}$"
       c: "$\\frac{1}{x^2} \\cos \\frac{1}{x}$"
       d: "$-\\frac{1}{x^2} \\cos \\frac{1}{x}$"
-    answer: null
+    answer: d
 
   - id: b-dka-2025-m1-mcq-013
     seq: 13
@@ -147,7 +147,7 @@ mcq:
       b: "$y - 3 = 0$"
       c: "$x + 3 = 0$"
       d: "$y + 3 = 0$"
-    answer: null
+    answer: c
 
   - id: b-dka-2025-m1-mcq-014
     seq: 14
@@ -157,7 +157,7 @@ mcq:
       b: "$x^2 + y^2 + 8x - 6y + 9 = 0$"
       c: "$x^2 + y^2 - 8x + 6y + 16 = 0$"
       d: "$x^2 + y^2 + 8x - 6y + 16 = 0$"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-015
     seq: 15
@@ -167,7 +167,7 @@ mcq:
       b: "i ও iii"
       c: "ii ও iii"
       d: "i, ii ও iii"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-016
     seq: 16
@@ -177,7 +177,7 @@ mcq:
       b: "$(-5, 2)$"
       c: "$(5, 2)$"
       d: "$(-5, -2)$"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-017
     seq: 17
@@ -187,7 +187,7 @@ mcq:
       b: "$\\begin{bmatrix} 1 & -3 \\\\ 2 & -5 \\end{bmatrix}$"
       c: "$\\begin{bmatrix} 5 & 2 \\\\ 3 & -1 \\end{bmatrix}$"
       d: "$\\begin{bmatrix} 5 & -2 \\\\ -3 & -1 \\end{bmatrix}$"
-    answer: null
+    answer: a
 
   - id: b-dka-2025-m1-mcq-018
     seq: 18
@@ -197,7 +197,7 @@ mcq:
       b: "i ও iii"
       c: "ii ও iii"
       d: "i, ii ও iii"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-019
     seq: 19
@@ -207,7 +207,7 @@ mcq:
       b: "$\\frac{1}{2a} \\ln \\left| \\frac{a + x}{a - x} \\right| + c$"
       c: "$\\ln \\left| x + \\sqrt{x^2 - a^2} \\right| + c$"
       d: "$\\sin^{-1} \\frac{x}{a} + c$"
-    answer: null
+    answer: c
 
   - id: b-dka-2025-m1-mcq-020
     seq: 20
@@ -217,7 +217,7 @@ mcq:
       b: "$3x^2 - 4y^2 + 16x + 8y - 20 = 0$"
       c: "$4x^2 + 3y^2 - 16x + 8y + 20 = 0$"
       d: "$4x^2 - 3y^2 + 16x - 8y - 20 = 0$"
-    answer: null
+    answer: a
 
   - id: b-dka-2025-m1-mcq-021
     seq: 21
@@ -227,7 +227,7 @@ mcq:
       b: "$2^n \\sin \\left( \\frac{n\\pi}{2} + 2x \\right)$"
       c: "$\\sin \\left( \\frac{n\\pi}{2} - 2x \\right)$"
       d: "$\\sin \\left( \\frac{n\\pi}{2} + 2x \\right)$"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-022
     seq: 22
@@ -237,7 +237,7 @@ mcq:
       b: "$\\sin\\theta$"
       c: "$\\text{cosec }\\theta$"
       d: "$-\\sec\\theta$"
-    answer: null
+    answer: d
 
   - id: b-dka-2025-m1-mcq-023
     seq: 23
@@ -247,7 +247,7 @@ mcq:
       b: "$-\\frac{1}{2}$"
       c: "$\\frac{1}{2}$"
       d: "$\\frac{\\sqrt{3}}{2}$"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-024
     seq: 24
@@ -257,7 +257,7 @@ mcq:
       b: "$-\\frac{1}{4}$"
       c: "$\\frac{1}{4}$"
       d: "$4$"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-025
     seq: 25
@@ -267,4 +267,4 @@ mcq:
       b: "$x^2 + y^2 + 2x = 0$"
       c: "$x^2 + y^2 - 2y = 0$"
       d: "$x^2 + y^2 + 2y = 0$"
-    answer: null
+    answer: c
