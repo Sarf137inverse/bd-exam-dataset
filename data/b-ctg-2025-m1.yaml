@@ -1,0 +1,270 @@
+# ─── Header ───────────────────────────────────────
+exam: board
+board: chittagong
+year: 2025
+subject: math1
+source: "Chittagong Board HSC Higher Mathematics 1st Paper 2025"
+verified: false
+total_mcq: 25
+total_cq: 0
+
+# ─── Stem Groups ──────────────────────────────────
+stem_groups:
+  - group_id: b-ctg-2025-m1-mcq-sg-01
+    stem: "নিচের উদ্দীপকের আলোকে ১২ ও ১৩নং প্রশ্নের উত্তর দাও :"
+    stem_type: text
+    question_ids: [b-ctg-2025-m1-mcq-012, b-ctg-2025-m1-mcq-013]
+
+# ─── MCQ Section ─────────────────────────────────
+mcq:
+  - id: b-ctg-2025-m1-mcq-001
+    seq: 1
+    question: "$\\begin{bmatrix} x-3 & 2 \\\\ 4 & x-5 \\end{bmatrix}$ একটি ব্যতিক্রমী ম্যাট্রিক্স হলে $x$ এর মান কত?"
+    options:
+      a: "$1, 7$"
+      b: "$-1, 7$"
+      c: "$1, -7$"
+      d: "$-1, -7$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-002
+    seq: 2
+    question: "$A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$ এবং $B = \\begin{bmatrix} 5 & 6 \\\\ 7 & 8 \\end{bmatrix}$ হলে, $AB$ এর (1,2)-তম ভুক্তি কোনটি?"
+    options:
+      a: "$19$"
+      b: "$22$"
+      c: "$43$"
+      d: "$50$"
+    answer: b
+
+  - id: b-ctg-2025-m1-mcq-003
+    seq: 3
+    question: "$A(-3, 4)$ এবং $B(5, -2)$ বিন্দুদ্বয়ের সংযোগ রেখাংশকে $y$-অক্ষ কী অনুপাতে বিভক্ত করে?"
+    options:
+      a: "$3:5$ বহির্বিভক্ত"
+      b: "$3:5$ অন্তর্বিভক্ত"
+      c: "$5:3$ বহির্বিভক্ত"
+      d: "$5:3$ অন্তর্বিভক্ত"
+    answer: b
+
+  - id: b-ctg-2025-m1-mcq-004
+    seq: 4
+    question: "$y = 2x + 3$ এবং $2x - y + 5 = 0$ রেখাদ্বয়ের মধ্যবর্তী লম্ব দূরত্ব কত?"
+    options:
+      a: "$\\frac{2}{\\sqrt{5}}$"
+      b: "$\\frac{8}{\\sqrt{5}}$"
+      c: "$\\sqrt{5}$"
+      d: "$2\\sqrt{5}$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-005
+    seq: 5
+    question: "$x^2 + y^2 - 4x - 6y + 4 = 0$ বৃত্তটি দ্বারা $x$-অক্ষের খণ্ডিতাংশের দৈর্ঘ্য কত?"
+    options:
+      a: "$2\\sqrt{3}$"
+      b: "$4$"
+      c: "$2\\sqrt{5}$"
+      d: "$6$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-006
+    seq: 6
+    question: "$3x^2 + 3y^2 - 12x + 15y - 9 = 0$ বৃত্তের কেন্দ্র কোনটি?"
+    options:
+      a: "$(6, -7.5)$"
+      b: "$(-6, 7.5)$"
+      c: "$(2, -2.5)$"
+      d: "$(-2, 2.5)$"
+    answer: c
+
+  - id: b-ctg-2025-m1-mcq-007
+    seq: 7
+    question: "$\\sin 75^\\circ + \\sin 15^\\circ$ এর মান কত?"
+    options:
+      a: "$\\frac{\\sqrt{3}}{2}$"
+      b: "$\\frac{\\sqrt{6}}{2}$"
+      c: "$\\frac{1}{\\sqrt{2}}$"
+      d: "$\\sqrt{2}$"
+    answer: b
+
+  - id: b-ctg-2025-m1-mcq-008
+    seq: 8
+    question: "$\\tan A = \\frac{1}{2}$ এবং $\\tan B = \\frac{1}{3}$ হলে, $A+B$ এর মান কত?"
+    options:
+      a: "$0$"
+      b: "$\\frac{\\pi}{6}$"
+      c: "$\\frac{\\pi}{4}$"
+      d: "$\\frac{\\pi}{3}$"
+    answer: c
+
+  - id: b-ctg-2025-m1-mcq-009
+    seq: 9
+    question: "$\\lim_{x \\to 0} \\frac{e^{5x} - 1}{x}$ এর মান কোনটি?"
+    options:
+      a: "$0$"
+      b: "$1$"
+      c: "$5$"
+      d: "$\\infty$"
+    answer: c
+
+  - id: b-ctg-2025-m1-mcq-010
+    seq: 10
+    question: "$y = \\ln(\\sin x)$ হলে, $\\frac{dy}{dx}$ কত?"
+    options:
+      a: "$\\cot x$"
+      b: "$\\tan x$ "
+      c: "$\\frac{1}{\\sin x}$"
+      d: "$-\\cot x$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-011
+    seq: 11
+    question: "$f(x) = 4x^3 - 15x^2 + 12x - 5$ এর গুরুমান কত বিন্দুতে পাওয়া যাবে?"
+    options:
+      a: "$x = 2$"
+      b: "$x = 1$"
+      c: "$x = 0.5$"
+      d: "$x = -1$"
+    answer: c
+
+  - id: b-ctg-2025-m1-mcq-012
+    seq: 12
+    group_id: b-ctg-2025-m1-mcq-sg-01
+    question: "উদ্দীপকের বক্ররেখাটির $x=2$ বিন্দুতে স্পর্শকের ঢাল কত?"
+    options:
+      a: "$-2$"
+      b: "$-4$"
+      c: "$4$"
+      d: "$2$"
+    answer: b
+
+  - id: b-ctg-2025-m1-mcq-013
+    seq: 13
+    group_id: b-ctg-2025-m1-mcq-sg-01
+    question: "উক্ত স্পর্শকের সমীকরণ কোনটি?"
+    options:
+      a: "$4x + y - 12 = 0$"
+      b: "$4x - y - 4 = 0$"
+      c: "$4x + y - 4 = 0$"
+      d: "$4x - y + 12 = 0$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-014
+    seq: 14
+    question: "$\\int \\frac{1}{1 + \\cos x} dx$ এর মান কত?"
+    options:
+      a: "$\\tan\\frac{x}{2} + c$"
+      b: "$\\sec^2\\frac{x}{2} + c$"
+      c: "$2\\tan\\frac{x}{2} + c$"
+      d: "$\\frac{1}{2}\\tan\\frac{x}{2} + c$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-015
+    seq: 15
+    question: "$\\int_{0}^{2} \\frac{x}{\\sqrt{x^2+1}} dx$ এর মান কোনটি?"
+    options:
+      a: "$\\sqrt{5} - 1$"
+      b: "$\\sqrt{5} + 1$"
+      c: "$2\\sqrt{5}$"
+      d: "$\\frac{\\sqrt{5}-1}{2}$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-016
+    seq: 16
+    question: "$y^2 = 4x$ এবং $x = 2$ রেখা দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কত বর্গ একক?"
+    options:
+      a: "$\\frac{8\\sqrt{2}}{3}$"
+      b: "$\\frac{16\\sqrt{2}}{3}$"
+      c: "$\\frac{32}{3}$"
+      d: "$\\frac{4\\sqrt{2}}{3}$"
+    answer: b
+
+  - id: b-ctg-2025-m1-mcq-017
+    seq: 17
+    question: "$A$ ও $B$ দুটি বর্গ ম্যাট্রিক্স হলে—\ni. $(AB)^{-1} = B^{-1}A^{-1}$\nii. $(A^T)^T = A$\niii. $\\det(AB) = \\det(A)\\det(B)$\nনিচের কোনটি সঠিক?"
+    options:
+      a: "i ও ii"
+      b: "i ও iii"
+      c: "ii ও iii"
+      d: "i, ii ও iii"
+    answer: d
+
+  - id: b-ctg-2025-m1-mcq-018
+    seq: 18
+    question: "$3x - 4y + 8 = 0$ রেখার উপর লম্ব এবং $(1, 2)$ বিন্দুগামী রেখার সমীকরণ কোনটি?"
+    options:
+      a: "$4x + 3y - 10 = 0$"
+      b: "$4x - 3y + 2 = 0$"
+      c: "$3x + 4y - 11 = 0$"
+      d: "$4x + 3y + 10 = 0$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-019
+    seq: 19
+    question: "$x^2 + y^2 = 25$ বৃত্তের $(3, -4)$ বিন্দুতে স্পর্শকের সমীকরণ কোনটি?"
+    options:
+      a: "$3x - 4y = 25$"
+      b: "$3x + 4y = 25$"
+      c: "$4x - 3y = 25$"
+      d: "$4x + 3y = 25$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-020
+    seq: 20
+    question: "$\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ$ এর মান কত?"
+    options:
+      a: "$\\frac{1}{2}$"
+      b: "$\\frac{1}{4}$"
+      c: "$\\frac{1}{8}$"
+      d: "$\\frac{1}{16}$"
+    answer: c
+
+  - id: b-ctg-2025-m1-mcq-021
+    seq: 21
+    question: "$\\frac{d}{dx}(\\sin^{-1} x + \\cos^{-1} x)$ এর মান কত?"
+    options:
+      a: "$0$"
+      b: "$\\frac{2}{\\sqrt{1-x^2}}$"
+      c: "$\\pi$"
+      d: "$1$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-022
+    seq: 22
+    question: "$\\int e^x (\\tan x + \\sec^2 x) dx$ এর মান কোনটি?"
+    options:
+      a: "$e^x \\sec^2 x + c$"
+      b: "$e^x \\tan x + c$"
+      c: "$-e^x \\tan x + c$"
+      d: "$e^x \\ln(\\sec x) + c$"
+    answer: b
+
+  - id: b-ctg-2025-m1-mcq-023
+    seq: 23
+    question: "$(-1, \\sqrt{3})$ বিন্দুর পোলার স্থানাঙ্ক কোনটি?"
+    options:
+      a: "$\\left(2, \\frac{\\pi}{3}\\right)$"
+      b: "$\\left(2, \\frac{2\\pi}{3}\\right)$"
+      c: "$\\left(2, -\\frac{\\pi}{3}\\right)$"
+      d: "$\\left(2, \\frac{4\\pi}{3}\\right)$"
+    answer: b
+
+  - id: b-ctg-2025-m1-mcq-024
+    seq: 24
+    question: "$f(x) = \\sqrt{9 - x^2}$ ফাংশনটির ডোমেন কোনটি?"
+    options:
+      a: "$[-3, 3]$"
+      b: "$(-3, 3)$"
+      c: "$[0, 3]$"
+      d: "$\\mathbb{R}$"
+    answer: a
+
+  - id: b-ctg-2025-m1-mcq-025
+    seq: 25
+    question: "$\\Delta ABC$ এ $a=2, b=3, c=4$ হলে $\\cos A$ এর মান কত?"
+    options:
+      a: "$\\frac{7}{8}$"
+      b: "$\\frac{11}{16}$"
+      c: "$\\frac{2}{3}$"
+      d: "$\\frac{1}{4}$"
+    answer: a

@@ -1,3 +1,4 @@
+# ─── Header ──────────────────────────────────
 exam: board
 board: dhaka
 year: 2025
@@ -7,6 +8,7 @@ verified: false
 total_mcq: 25
 total_cq: 0
 
+# ─── Stem Groups ──────────────────────────────────
 stem_groups:
   - group_id: b-dka-2025-m1-mcq-sg-01
     stem: "নিচের উদ্দীপকের আলোকে ৭ ও ৮নং প্রশ্নের উত্তর দাও :"
@@ -14,6 +16,7 @@ stem_groups:
     stem_asset: b-dka-2025-m1-mcq-007.png
     question_ids: [b-dka-2025-m1-mcq-007, b-dka-2025-m1-mcq-008]
 
+# ─── MCQ Section ─────────────────────────────────
 mcq:
   - id: b-dka-2025-m1-mcq-001
     seq: 1
@@ -84,7 +87,7 @@ mcq:
       b: "$\\frac{1}{\\sqrt{3}}$"
       c: "$-\\frac{1}{\\sqrt{3}}$"
       d: "$-\\sqrt{3}$"
-    answer: null
+    answer: b
 
   - id: b-dka-2025-m1-mcq-008
     seq: 8
@@ -95,7 +98,7 @@ mcq:
       b: "$x + \\sqrt{3}y + 8 = 0$"
       c: "$\\sqrt{3}x - y + 8 = 0$"
       d: "$\\sqrt{3}x + y + 8 = 0$"
-    answer: null
+    answer: d
 
   - id: b-dka-2025-m1-mcq-009
     seq: 9
